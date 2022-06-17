@@ -1,0 +1,92 @@
+{
+  "actors": [
+    {
+      "id": "0e01d8b7-bc13-4299-bace-c24f4730a36b",
+      "text": "AgentHurt",
+      "type": "istar.Agent",
+      "x": 267,
+      "y": 143,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "14ed96e7-3bf4-49c7-bad6-ea8c7ba40a53",
+          "text": "Quality",
+          "type": "istar.Quality",
+          "x": 422,
+          "y": 181,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "649bde52-3db6-4625-9f9c-19cc8726c122",
+          "text": "Task_1",
+          "type": "istar.Task",
+          "x": 267,
+          "y": 274,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "47c4d3ab-f100-4988-a3cc-c3689c35a8ed",
+          "text": "Task_2",
+          "type": "istar.Task",
+          "x": 391.5,
+          "y": 276,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1016caf5-fc58-4f63-98bd-348dae66cb6e",
+          "text": "Task-3",
+          "type": "istar.Task",
+          "x": 521,
+          "y": 270,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "63336dd3-73da-4f92-9fd3-a8cf713889bd",
+      "type": "istar.ContributionLink",
+      "source": "649bde52-3db6-4625-9f9c-19cc8726c122",
+      "target": "14ed96e7-3bf4-49c7-bad6-ea8c7ba40a53",
+      "label": "hurt"
+    },
+    {
+      "id": "f9396d2a-f6ba-4eff-89f7-7c51a2136c48",
+      "type": "istar.ContributionLink",
+      "source": "47c4d3ab-f100-4988-a3cc-c3689c35a8ed",
+      "target": "14ed96e7-3bf4-49c7-bad6-ea8c7ba40a53",
+      "label": "hurt"
+    },
+    {
+      "id": "70952422-3468-4a0c-a379-fd5775dcf6db",
+      "type": "istar.ContributionLink",
+      "source": "1016caf5-fc58-4f63-98bd-348dae66cb6e",
+      "target": "14ed96e7-3bf4-49c7-bad6-ea8c7ba40a53",
+      "label": "hurt"
+    }
+  ],
+  "display": {},
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 09 May 2022 13:15:59 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

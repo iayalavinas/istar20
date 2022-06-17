@@ -1,0 +1,57 @@
+{
+  "actors": [
+    {
+      "id": "e785f155-ed4d-41d5-9723-f8c65218dfc5",
+      "text": "Agent",
+      "type": "istar.Agent",
+      "x": 290,
+      "y": 214,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d004b9f0-ad09-4a1b-9b9d-50e7495f7f27",
+          "text": "Task",
+          "type": "istar.Task",
+          "x": 366,
+          "y": 253,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dda593cb-17c4-46b2-b0fc-5afe06f12d71",
+          "text": "Resource",
+          "type": "istar.Resource",
+          "x": 328,
+          "y": 310,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "2f3d4604-8501-477f-8a86-406cc5b5f967",
+      "type": "istar.NeededByLink",
+      "source": "dda593cb-17c4-46b2-b0fc-5afe06f12d71",
+      "target": "d004b9f0-ad09-4a1b-9b9d-50e7495f7f27"
+    }
+  ],
+  "display": {},
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Fri, 06 May 2022 16:20:53 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

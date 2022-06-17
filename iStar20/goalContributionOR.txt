@@ -1,0 +1,89 @@
+{
+  "actors": [
+    {
+      "id": "0e01d8b7-bc13-4299-bace-c24f4730a36b",
+      "text": "AgentRefinementOR",
+      "type": "istar.Agent",
+      "x": 233,
+      "y": 98,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "65f343bf-5dcd-4ee6-baae-a79884ae3d19",
+          "text": "Goal_1",
+          "type": "istar.Goal",
+          "x": 344,
+          "y": 98,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "eccc6768-0c87-45f6-83d4-b87b730d2dba",
+          "text": "Goal_2",
+          "type": "istar.Goal",
+          "x": 236,
+          "y": 237,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc07d954-8b2c-41fb-aa1c-28bb05f47059",
+          "text": "Task",
+          "type": "istar.Task",
+          "x": 339,
+          "y": 232,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "32d774a4-eddb-4051-9eaa-478b7afd2966",
+          "text": "Goal_3",
+          "type": "istar.Goal",
+          "x": 450,
+          "y": 233,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "bd823bad-ab05-4e5e-ac10-26c7f095094c",
+      "type": "istar.OrRefinementLink",
+      "source": "eccc6768-0c87-45f6-83d4-b87b730d2dba",
+      "target": "65f343bf-5dcd-4ee6-baae-a79884ae3d19"
+    },
+    {
+      "id": "0b680e7e-ab6b-4120-a32d-a23f5c80a742",
+      "type": "istar.OrRefinementLink",
+      "source": "bc07d954-8b2c-41fb-aa1c-28bb05f47059",
+      "target": "65f343bf-5dcd-4ee6-baae-a79884ae3d19"
+    },
+    {
+      "id": "7f3fa6c6-8918-4534-afb8-770e526e7af0",
+      "type": "istar.OrRefinementLink",
+      "source": "32d774a4-eddb-4051-9eaa-478b7afd2966",
+      "target": "65f343bf-5dcd-4ee6-baae-a79884ae3d19"
+    }
+  ],
+  "display": {},
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 10 May 2022 07:51:32 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
